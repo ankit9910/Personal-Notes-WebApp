@@ -1,0 +1,12 @@
+.card ,.card-body{
+	border: 2px solid black;
+}
+.card-body{
+	background-color: aqua;
+}
+body{
+	background-color: brown;
+}
+#head1{
+	color:white;
+}

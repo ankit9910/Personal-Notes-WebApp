@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Notes</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="notes.css">
+    
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">My Notes</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" id="searchText" type="search" placeholder="Search" aria-label="Search">
+      
+    </form>
+  </div>
+</nav>
+
+<div class="container my-3">
+	<h1 id="head1">Add Your Notes</h1>
+	<div class="card">
+  		<div class="card-body">
+            <div class="form-group">
+                    <h5 class="card-title">Add title</h5>
+                    <input type="text" class="form-control" id="addTitle" aria-describedby="title"
+                        placeholder="Enter title">
+            </div>
+    		<h5 class="card-title">Add a note</h5>
+    		<div class="form-group">
+    			<textarea class="form-control" id="addText" rows="3"></textarea>
+  			</div>
+    		<button class="btn btn-primary" id="addBtn">Add New Note</button>
+  		</div>
+	</div>
+	<hr>
+	<hr>
+	<h2 id="head1">Your Notes</h2>
+	<hr>
+	<hr>
+	<div id="notes" class="row container-fluid">
+		<!-- <div class="noteCard my-2 mx-2 card" style="width: 18rem;">
+  			<div class="card-body">
+    			<h5 class="card-title">Card title</h5>
+    			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    			<a href="#" class="btn btn-primary">Delete</a>
+    		</div>
+  		</div> -->
+  		<!-- <div class="noteCard my-2 mx-2 card" style="width: 18rem;">
+  			<div class="card-body">
+    			<h5 class="card-title">Card title</h5>
+    			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    			<a href="#" class="btn btn-primary">Delete</a>
+    		</div>
+  		</div>
+  		<div class="noteCard my-2 mx-2 card" style="width: 18rem;">
+  			<div class="card-body">
+    			<h5 class="card-title">Card title</h5>
+    			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    			<a href="#" class="btn btn-primary">Delete</a>
+    		</div>
+  		</div> -->
+	</div>
+
+</div>
+<!-- Bootstrap Jquery CDN link -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="file.js"></script>
+
+</body>
+</html>
